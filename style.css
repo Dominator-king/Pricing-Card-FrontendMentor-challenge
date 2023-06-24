@@ -1,0 +1,87 @@
+html {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  box-sizing: border-box;
+  margin: 200px auto;
+  padding: 40px;
+  text-siz: 16px;
+  font-family: "Karla", sans-serif;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 6px 90px -20px hsl(218, 22%, 67%);
+  overflow: hidden;
+}
+h2 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.main-container > p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.box {
+  position: absolute;
+  box-sizing: inherit;
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  padding-left: 40px;
+}
+.left-box {
+  left: 0;
+  bottom: 0;
+  border-radius: 0px, 0px, 0px, 15px;
+}
+.right-box {
+  border-radius: 0px, 0px, 15px, 0px;
+  bottom: 0;
+  right: 0;
+  background-color: hsla(179, 62%, 43%, 0.8);
+}
+.text {
+  line-height: 1.5;
+  color: hsla(204, 43%, 93%, 0.7);
+}
+#pTag{
+  dislay: inline-block;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  padding :0px ;
+  margin-bottom: 0;
+}
+#inline {
+  display:inline!important ;
+  color :  hsla(204, 43%, 93%, 0.5) ;
+}
+#signUp{
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 3px 8px 30px -12px hsl(177, 6%, 35%);
+  
+  margin-left: 5%;
+  width: 80%;
+  height: 20%;
+  text-align: center;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.1em;
+  
+}
+#signUp:hover{
+  box-shadow: 3px 8px 30px -12px rgb(255, 255, 255);
+  
+}
